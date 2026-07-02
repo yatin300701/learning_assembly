@@ -1,0 +1,33 @@
+Assembly problem can be divided into 3. sections
+
+1. Data
+2. bss section
+3. text section
+
+Data
+
+- initalise data declaration or constants
+- data does not change at run time
+
+Syntax
+section.data
+
+bss Section
+
+- declaration of variables
+
+section.bss
+
+Text section
+
+- for actual code
+- must start with global _start
+
+section.text
+    global _start
+_start:
+
+comments start by ;
+so can be
+
+add eax, ebx ; comments added
